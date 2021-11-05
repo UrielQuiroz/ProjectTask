@@ -3,8 +3,58 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectTaskXAF.Module", "ProjectTaskXAF.Module\ProjectTaskXAF.Module.csproj", "{340E130E-B535-43E5-B71A-4F24B39DF496}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectTaskXAF.Module.Web", "ProjectTaskXAF.Module.Web\ProjectTaskXAF.Module.Web.csproj", "{7497EC98-03A5-48B9-AF1A-124BC240371E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectTaskXAF.Web", "ProjectTaskXAF.Web\ProjectTaskXAF.Web.csproj", "{575488D9-F994-47CD-8357-C31B23C7AA91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectTaskXAF.Module.Win", "ProjectTaskXAF.Module.Win\ProjectTaskXAF.Module.Win.csproj", "{EDC566EB-7658-4399-9B37-8B9A36D76E0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectTaskXAF.Win", "ProjectTaskXAF.Win\ProjectTaskXAF.Win.csproj", "{245188D7-785E-4359-887C-F9307854DC9D}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		EasyTest|Any CPU = EasyTest|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{340E130E-B535-43E5-B71A-4F24B39DF496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{340E130E-B535-43E5-B71A-4F24B39DF496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{340E130E-B535-43E5-B71A-4F24B39DF496}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{340E130E-B535-43E5-B71A-4F24B39DF496}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{340E130E-B535-43E5-B71A-4F24B39DF496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{340E130E-B535-43E5-B71A-4F24B39DF496}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7497EC98-03A5-48B9-AF1A-124BC240371E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7497EC98-03A5-48B9-AF1A-124BC240371E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7497EC98-03A5-48B9-AF1A-124BC240371E}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{7497EC98-03A5-48B9-AF1A-124BC240371E}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{7497EC98-03A5-48B9-AF1A-124BC240371E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7497EC98-03A5-48B9-AF1A-124BC240371E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{575488D9-F994-47CD-8357-C31B23C7AA91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{575488D9-F994-47CD-8357-C31B23C7AA91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{575488D9-F994-47CD-8357-C31B23C7AA91}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{575488D9-F994-47CD-8357-C31B23C7AA91}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{575488D9-F994-47CD-8357-C31B23C7AA91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{575488D9-F994-47CD-8357-C31B23C7AA91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDC566EB-7658-4399-9B37-8B9A36D76E0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDC566EB-7658-4399-9B37-8B9A36D76E0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDC566EB-7658-4399-9B37-8B9A36D76E0E}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{EDC566EB-7658-4399-9B37-8B9A36D76E0E}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{EDC566EB-7658-4399-9B37-8B9A36D76E0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDC566EB-7658-4399-9B37-8B9A36D76E0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{245188D7-785E-4359-887C-F9307854DC9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{245188D7-785E-4359-887C-F9307854DC9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{245188D7-785E-4359-887C-F9307854DC9D}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{245188D7-785E-4359-887C-F9307854DC9D}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{245188D7-785E-4359-887C-F9307854DC9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{245188D7-785E-4359-887C-F9307854DC9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58292144-FD4C-4E39-A898-3B64F0C565CE}
 	EndGlobalSection
 EndGlobal

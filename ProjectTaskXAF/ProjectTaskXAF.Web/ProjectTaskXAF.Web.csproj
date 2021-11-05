@@ -17,6 +17,8 @@
     <IISExpressAnonymousAuthentication>enabled</IISExpressAnonymousAuthentication>
     <IISExpressWindowsAuthentication>disabled</IISExpressWindowsAuthentication>
     <IISExpressUseClassicPipelineMode>false</IISExpressUseClassicPipelineMode>
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -46,175 +48,205 @@
   <ItemGroup>
     <Reference Include="DevExpress.Dashboard.v21.1.Core">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.Dashboard.v21.1.Web">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.Dashboard.v21.1.Web.WebForms">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.Data.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.DataAccess.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.ExpressApp.ConditionalAppearance.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.ExpressApp.Dashboards.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.ExpressApp.Dashboards.Web.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.ExpressApp.Objects.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.ExpressApp.ReportsV2.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.ExpressApp.ReportsV2.Web.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.ExpressApp.Security.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.ExpressApp.Security.Xpo.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.ExpressApp.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.ExpressApp.Validation.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.ExpressApp.Validation.Web.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.ExpressApp.Web.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.ExpressApp.Xpo.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.Images.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.Office.v21.1.Core">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.Persistent.Base.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.Persistent.BaseImpl.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.Printing.v21.1.Core">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.RichEdit.v21.1.Core">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.RichEdit.v21.1.Export">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.Web.ASPxThemes.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.Web.ASPxTreeList.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.Web.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.Xpo.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.XtraReports.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.XtraReports.v21.1.Web">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.XtraReports.v21.1.Web.WebForms">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="mscorlib">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System.Core">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System.Drawing">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System.Web">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System.Xml">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System.Xml.Linq">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
-    <Reference Include="System"><Private>False</Private></Reference>
-    <Reference Include="System.Configuration"><Private>False</Private></Reference>
-    <Reference Include="System.Data"><Private>False</Private></Reference>
-    <Reference Include="System.Data.DataSetExtensions"><Private>False</Private></Reference>
-    <Reference Include="System.Drawing"><Private>False</Private></Reference>
-    <Reference Include="System.EnterpriseServices"><Private>False</Private></Reference>
-    <Reference Include="System.Web"><Private>False</Private></Reference>
-    <Reference Include="System.Web.ApplicationServices"><Private>False</Private></Reference>
-    <Reference Include="System.Web.DynamicData"><Private>False</Private></Reference>
-    <Reference Include="System.Web.Entity"><Private>False</Private></Reference>
-    <Reference Include="System.Web.Extensions"><Private>False</Private></Reference>
-    <Reference Include="System.Web.Mobile"><Private>False</Private></Reference>
-    <Reference Include="System.Web.Services"><Private>False</Private></Reference>
-    <Reference Include="System.XML"><Private>False</Private></Reference>
-    <Reference Include="System.Xml.Linq"><Private>False</Private></Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Configuration">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.EnterpriseServices">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web.ApplicationServices">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web.DynamicData">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web.Entity">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.XML">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>False</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.aspx" />
@@ -263,6 +295,18 @@
     <Content Include="Model.Tablet.xafml" />
     <None Include="ReadMe.txt" />
     <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ProjectTaskXAF.Module.Web\ProjectTaskXAF.Module.Web.csproj">
+      <Project>{7497EC98-03A5-48B9-AF1A-124BC240371E}</Project>
+      <Name>ProjectTaskXAF.Module.Web</Name>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\ProjectTaskXAF.Module\ProjectTaskXAF.Module.csproj">
+      <Project>{340E130E-B535-43E5-B71A-4F24B39DF496}</Project>
+      <Name>ProjectTaskXAF.Module</Name>
+      <Private>True</Private>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

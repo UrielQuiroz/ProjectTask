@@ -166,20 +166,27 @@
     </Reference>
     <Reference Include="System">
       <Name>System</Name>
-    <Private>False</Private></Reference>
-    <Reference Include="System.configuration"><Private>False</Private></Reference>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.configuration">
+      <Private>False</Private>
+    </Reference>
     <Reference Include="System.Data">
       <Name>System.Data</Name>
-    <Private>False</Private></Reference>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="System.Drawing">
       <Name>System.Drawing</Name>
-    <Private>False</Private></Reference>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="System.Windows.Forms">
       <Name>System.Windows.Forms</Name>
-    <Private>False</Private></Reference>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="System.Xml">
       <Name>System.XML</Name>
-    <Private>False</Private></Reference>
+      <Private>False</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -207,6 +214,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ProjectTaskXAF.Module\ProjectTaskXAF.Module.csproj">
+      <Project>{340E130E-B535-43E5-B71A-4F24B39DF496}</Project>
+      <Name>ProjectTaskXAF.Module</Name>
+      <Private>True</Private>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

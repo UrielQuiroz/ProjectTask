@@ -41,212 +41,219 @@
   <ItemGroup>
     <Reference Include="DevExpress.BonusSkins.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.Dashboard.v21.1.Core">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.Dashboard.v21.1.Win">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.Data.Desktop.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.Data.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.DataAccess.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.DataAccess.v21.1.UI">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.ExpressApp.ConditionalAppearance.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.ExpressApp.Dashboards.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.ExpressApp.Dashboards.Win.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.ExpressApp.Objects.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.ExpressApp.ReportsV2.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.ExpressApp.ReportsV2.Win.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.ExpressApp.Security.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.ExpressApp.Security.Xpo.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.ExpressApp.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.ExpressApp.Validation.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.ExpressApp.Validation.Win.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.ExpressApp.Win.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.ExpressApp.Xpo.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.Images.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.Office.v21.1.Core">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.Persistent.Base.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.Persistent.BaseImpl.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.Printing.v21.1.Core">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.RichEdit.v21.1.Core">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.RichEdit.v21.1.Export">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.Utils.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.Utils.v21.1.UI">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.Xpo.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.XtraBars.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.XtraEditors.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.XtraGrid.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.XtraLayout.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.XtraNavBar.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.XtraPrinting.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.XtraReports.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.XtraReports.v21.1.Extensions">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.XtraRichEdit.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.XtraTreeList.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.XtraVerticalGrid.v21.1">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="mscorlib">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System.Core">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System.Design">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System.Drawing">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System.Windows.Forms">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System.Xml.Linq">
       <SpecificVersion>False</SpecificVersion>
-	  <Private>False</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System">
       <Name>System</Name>
-    <Private>False</Private></Reference>
-    <Reference Include="System.configuration"><Private>False</Private></Reference>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.configuration">
+      <Private>False</Private>
+    </Reference>
     <Reference Include="System.Data">
       <Name>System.Data</Name>
-    <Private>False</Private></Reference>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="System.Drawing">
       <Name>System.Drawing</Name>
-    <Private>False</Private></Reference>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="System.Windows.Forms">
       <Name>System.Windows.Forms</Name>
-    <Private>False</Private></Reference>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="System.Xml">
       <Name>System.XML</Name>
-    <Private>False</Private></Reference>
+      <Private>False</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Images\Logo.svg" />
@@ -269,15 +276,27 @@
     <Compile Include="WinApplication.Designer.cs">
       <DependentUpon>WinApplication.cs</DependentUpon>
     </Compile>
-	<Compile Include="XafSplashScreen.cs">
+    <Compile Include="XafSplashScreen.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="XafSplashScreen.Designer.cs">
       <DependentUpon>XafSplashScreen.cs</DependentUpon>
     </Compile>
-	<EmbeddedResource Include="XafSplashScreen.resx">
+    <EmbeddedResource Include="XafSplashScreen.resx">
       <DependentUpon>XafSplashScreen.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ProjectTaskXAF.Module.Win\ProjectTaskXAF.Module.Win.csproj">
+      <Project>{EDC566EB-7658-4399-9B37-8B9A36D76E0E}</Project>
+      <Name>ProjectTaskXAF.Module.Win</Name>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\ProjectTaskXAF.Module\ProjectTaskXAF.Module.csproj">
+      <Project>{340E130E-B535-43E5-B71A-4F24B39DF496}</Project>
+      <Name>ProjectTaskXAF.Module</Name>
+      <Private>True</Private>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

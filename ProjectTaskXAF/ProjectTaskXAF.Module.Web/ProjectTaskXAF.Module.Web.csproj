@@ -140,9 +140,15 @@
     <Reference Include="System.Xml.Linq">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="System"><Private>False</Private></Reference>
-    <Reference Include="System.Data"><Private>False</Private></Reference>
-    <Reference Include="System.Xml"><Private>False</Private></Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="WebModule.cs">
@@ -165,6 +171,13 @@
   <ItemGroup>
     <None Include="Images\ReadMe.txt" />
     <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ProjectTaskXAF.Module\ProjectTaskXAF.Module.csproj">
+      <Project>{340E130E-B535-43E5-B71A-4F24B39DF496}</Project>
+      <Name>ProjectTaskXAF.Module</Name>
+      <Private>True</Private>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

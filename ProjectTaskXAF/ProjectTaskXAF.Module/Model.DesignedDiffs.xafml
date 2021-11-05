@@ -1,12 +1,49 @@
-﻿<?xml version="1.0" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Application Title="ProjectTaskXAF">
   <BOModel>
     <Class Name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyUser" Caption="Base User" />
+    <Class Name="ProjectTaskXAF.Module.BusinessObjects.ProjectTask">
+      <AppearanceRules>
+        <AppearanceRule Id="StatusCompletedGreen" FontColor="Lime" FontStyle="Strikeout" TargetItems="*" Criteria="[Status] = ##Enum#ProjectTaskXAF.Module.BusinessObjects.Status,Completed#" IsNewNode="True" />
+        <AppearanceRule Id="StatusDeferesRed" BackColor="255, 128, 128" TargetItems="*" Criteria="[Status] = ##Enum#ProjectTaskXAF.Module.BusinessObjects.Status,Deferred#" IsNewNode="True" />
+        <AppearanceRule Id="StatusToDo" TargetItems="*" Criteria="[Status] = ##Enum#ProjectTaskXAF.Module.BusinessObjects.Status,ToDo#" BackColor="Yellow" IsNewNode="True" />
+      </AppearanceRules>
+    </Class>
   </BOModel>
+  <NavigationItems>
+    <Items>
+      <Item Id="Default">
+        <Items>
+          <Item Id="Employee_ListView" Removed="True" />
+          <Item Id="Project_ListView" Removed="True" />
+          <Item Id="ProjectTask_ListView" Removed="True" />
+        </Items>
+      </Item>
+      <Item Id="Project" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="Employee_ListView" ViewId="Employee_ListView" ObjectKey="" IsNewNode="True" />
+          <Item Id="Project_ListView" ViewId="Project_ListView" ObjectKey="" IsNewNode="True" />
+          <Item Id="ProjectTask_ListView" ViewId="ProjectTask_ListView" ObjectKey="" IsNewNode="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
   <Options>
     <LayoutManagerOptions RequiredFieldMark="*" />
   </Options>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="21.1.6.0" IsNewNode="True" />
+  </SchemaModules>
   <Views>
     <ListView Id="ApplicationUser_ListView" Caption="Users" />
+    <ListView Id="ProjectTask_ListView">
+      <Columns>
+        <ColumnInfo Id="Subject" SortOrder="Descending" Index="-1" />
+        <ColumnInfo Id="Projects" Index="0" />
+        <ColumnInfo Id="StartDate" Index="1" />
+        <ColumnInfo Id="EndDate" Index="2" />
+        <ColumnInfo Id="Status" Index="3" />
+      </Columns>
+    </ListView>
   </Views>
 </Application>
