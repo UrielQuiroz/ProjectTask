@@ -4,7 +4,7 @@
     <Class Name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyUser" Caption="Base User" />
     <Class Name="ProjectTaskXAF.Module.BusinessObjects.ProjectTask">
       <AppearanceRules>
-        <AppearanceRule Id="StatusCompletedGreen" FontColor="Lime" FontStyle="Strikeout" TargetItems="*" Criteria="[Status] = ##Enum#ProjectTaskXAF.Module.BusinessObjects.Status,Completed#" IsNewNode="True" />
+        <AppearanceRule Id="StatusCompletedGreen" FontColor="0, 192, 0" FontStyle="Strikeout" TargetItems="*" Criteria="[Status] = ##Enum#ProjectTaskXAF.Module.BusinessObjects.Status,Completed#" IsNewNode="True" />
         <AppearanceRule Id="StatusDeferesRed" BackColor="255, 128, 128" TargetItems="*" Criteria="[Status] = ##Enum#ProjectTaskXAF.Module.BusinessObjects.Status,Deferred#" IsNewNode="True" />
         <AppearanceRule Id="StatusToDo" TargetItems="*" Criteria="[Status] = ##Enum#ProjectTaskXAF.Module.BusinessObjects.Status,ToDo#" BackColor="Yellow" IsNewNode="True" />
       </AppearanceRules>
@@ -36,14 +36,5 @@
   </SchemaModules>
   <Views>
     <ListView Id="ApplicationUser_ListView" Caption="Users" />
-    <ListView Id="ProjectTask_ListView">
-      <Columns>
-        <ColumnInfo Id="Subject" SortOrder="Descending" Index="-1" />
-        <ColumnInfo Id="Projects" Index="0" />
-        <ColumnInfo Id="StartDate" Index="1" />
-        <ColumnInfo Id="EndDate" Index="2" />
-        <ColumnInfo Id="Status" Index="3" />
-      </Columns>
-    </ListView>
   </Views>
 </Application>

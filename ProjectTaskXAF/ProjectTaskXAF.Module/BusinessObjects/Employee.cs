@@ -73,7 +73,7 @@ namespace ProjectTaskXAF.Module.BusinessObjects
         }
 
 
-        //[ImageEditor(ListViewImageEditorCustomHeight = 75, DetailViewImageEditorFixedHeight = 150)]
+        [ImageEditor(ListViewImageEditorCustomHeight = 75, DetailViewImageEditorFixedHeight = 150)]
         public byte[] Image
         {
             get => image;

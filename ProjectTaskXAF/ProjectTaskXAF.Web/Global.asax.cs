@@ -29,6 +29,7 @@ namespace ProjectTaskXAF.Web {
             WebApplication.SetInstance(Session, new ProjectTaskXAFAspNetApplication());
             SecurityStrategy security = WebApplication.Instance.GetSecurityStrategy();
             security.RegisterXPOAdapterProviders();
+            WebApplication.Instance.Settings.DefaultVerticalTemplateContentPath = "MyTemplate.ascx";
             DevExpress.ExpressApp.Web.Templates.DefaultVerticalTemplateContentNew.ClearSizeLimit();
             WebApplication.Instance.SwitchToNewStyle();
             if(ConfigurationManager.ConnectionStrings["ConnectionString"] != null) {
@@ -70,5 +71,14 @@ namespace ProjectTaskXAF.Web {
         private void InitializeComponent() {
         }
         #endregion
+
+        protected void Application_PreRequestHandlerExecute(object sender, EventArgs e)
+        {
+            DevExpress.Web.ASPxWebControl.GlobalThemeBaseColor = "#00953A"; // Verde Pantone de Cosmocel
+            DevExpress.Web.ASPxWebControl.GlobalThemeFont = "12px 'Arial'";
+            DevExpress.Web.ASPxWebControl.GlobalTheme = "blue";
+
+            //DevExpress.Web.ASPxWebControl.GlobalTheme = "#E6FF33";
+        }
     }
 }
